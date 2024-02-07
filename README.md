@@ -4,6 +4,10 @@ Adds a clippy like pusheen widget to your browser pages.
 
 <img width=126 src="https://media2.giphy.com/media/apow2YS2BEAHB4jV0D/giphy.webp?cid=790b7611qfrva3p5dwfclro8ydpjmannv8jrtdjk7w0g37qw&ep=v1_stickers_search&rid=giphy.webp&ct=s">
 
+## Installation
+
+For installation instructions see: https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
+
 ## Changing or adding images
 
 In the contentScript.js file, change the images object.
