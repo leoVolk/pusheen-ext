@@ -1,0 +1,19 @@
+#pusheen {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10000;
+}
+
+#pusheen #close {
+  position: absolute;
+  top: -32px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-color: #00000025;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  z-index: 10001;
+}
