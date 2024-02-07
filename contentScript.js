@@ -18,15 +18,10 @@ const init = () => {
     </div>`
   );
 
-
+  //TODO: find way to save hiding and enable or disable component from popup
   document.getElementById('close').addEventListener('click', () => {
-    //localStorage.setItem('showPusheen', 'false');
-
     document.getElementById('pusheen').style = 'display: none;'
   });
-
-
-  // dragElement(document.getElementById("pusheen"));
 }
 
 const images = {
@@ -40,7 +35,7 @@ const images = {
   amazon: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHVhbnFoa2xtMWlibjl4eXpvZnEzbzN2dGtzbGMwcmh6cTdnaWl4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UbDWVoGWmGI4lG859Q/giphy.gif',
   github: 'https://media0.giphy.com/media/K9Xy6osm73DbxIa8f2/giphy.webp?cid=ecf05e47cszr6cywq2swq412epcuy6duincnt0da3unos4fc&ep=v1_stickers_search&rid=giphy.webp&ct=s',
   stackoverflow: 'https://media0.giphy.com/media/K9Xy6osm73DbxIa8f2/giphy.webp?cid=ecf05e47cszr6cywq2swq412epcuy6duincnt0da3unos4fc&ep=v1_stickers_search&rid=giphy.webp&ct=s',
-
+  steampowered: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBreHZoODhsa3Z6cWpzcXBtZ3U4ejYxNzQxa281aG50NTczbHRuZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/drqmAm0kLnqPVzFB2p/giphy.gif',
 }
 
 
